@@ -1,0 +1,401 @@
+@charset "utf-8";
+/* CSS Document */
+*{
+	padding:0;
+	margin:0;
+}
+::-webkit-scrollbar{height:8px;width:8px}::-webkit-scrollbar-track{-webkit-box-shadow:inset 0 0 0 #ffffff;background:#fff;border:0 solid #000}::-webkit-scrollbar-thumb{-webkit-box-shadow:inset 0 0 0 #ffffff;background:#f6ca35;border-radius:4px 4px 4px 4px; }
+.banner{
+	background-image:url("smiley.png");
+	background-size:cover;
+	background-repeat:no-repeat;
+	height:100vh;
+}
+.anhvaten{
+	justify-content:space-between;
+	display:flex;
+	align-items:center;
+}
+.anhcuaminh img{
+	width:60%;
+	margin-left:60px;
+}
+.anhcuaminh{
+	width:50%;
+}
+.gioithieu{
+	width:50%;
+}
+.gioithieu h3{
+	font-size:40px;
+	font-family:ubuntu;
+	color:#3e338f;
+}
+.gioithieu h1{
+	font-family:fredoka one;
+	font-size:80px;
+	color:#de0380;
+}
+.gioithieu h2{
+	font-size:50px;
+	color:#3e338f;
+	font-family:ubuntu;
+}
+.gioithieu h2 span{
+	color:#de0380;
+	font-weight:bold;
+	padding-bottom:50px;
+}
+.gioithieu input:hover{
+	background-color:#de0380;
+	transform:scale(1.5);
+	
+}
+.gioithieu input{
+	padding:10px 40px;
+	border-radius:20px;
+	background-color:#3e338f;
+	color:white;
+	font-family:fredoka one;
+	text-decoration:none;
+	font-size:30px;
+	font-weight:light;
+	border:none;
+	margin-top:50px;
+	
+}
+.header{
+	background-color:#3e338f;
+	height:90px;
+	display:flex;
+	align-items:center;
+	justify-content:space-between;
+}
+.header ul li{
+	display:inline;
+	font-size:15pt;
+	color:white;
+	padding:20px;
+	margin-right:20px;
+	font-weight:lighter;
+	font-family:fredoka one;
+}
+.header ul{
+	float:right;
+}
+.header ul li a:hover{
+	color:#f6ca35;
+}
+.header a{
+	color:white;
+	text-decoration: none;
+}
+.header h2{
+	font-family:Fredoka one;
+	font-size:30px;
+	color:#f6ca35;
+	margin-left:30px
+}
+.aboutme{
+	background-color:#3e338f;
+	height:900px;
+}
+.tieude{
+	font-size:40px;
+	font-family:fredoka one;
+	color:#f6ca35;
+	text-align:center;
+	padding-top:60px;
+}
+.noidungaboutme{
+	display:flex;
+	justify-content:space-between;
+	align-items:center;
+	flex-wrap:wrap;
+	margin-top:-100px;
+}
+.aboutmetrai {
+	width:30%;
+	margin-left:50px;
+	margin-bottom:200px;
+}
+.aboutmetrai img{
+	width:600px;
+	
+}
+.aboutmephai{
+	width:50%;
+	font-family:ubuntu;
+	color:white;
+	font-size:35px;
+	margin-right:90px;
+	margin-top:-250px;
+}
+.nutaboutme input{
+	padding:10px 40px;
+	border-radius:20px;
+	background-color:#f9cc3c;
+	color:white;
+	font-family:fredoka one;
+	text-decoration:none;
+	font-size:30px;
+	font-weight:light;
+	border:none;
+}
+.nutaboutme input:hover{
+	background-color:#de0380;
+	transform:scale(1.5);
+}
+.nutaboutme{
+	text-align:center;
+	margin-top:50px;
+}
+.skills{
+	background-image:url("Artboard 1.png");
+	height:900px;
+	background-size:contain;
+	background-repeat: no-repeat;
+}
+.tieudeskills{
+	font-size:40px;
+	font-family:fredoka one;
+	color:#3e338f;
+	text-align:center;
+	padding-top:150px;
+}
+.anhskills{
+	display:grid;
+    grid-template-columns: auto auto auto;
+	grid-template-rows: auto auto;
+	text-align:center;
+	padding:0 200px;
+}
+.anhconskills img{
+	width:50%;
+}
+.products{
+	background-image:url("anh tim xinh.png");
+	height:900px;
+	background-size:contain;
+	background-repeat: no-repeat;
+	margin-top:-50px;
+}
+.tieudenho h1{
+	background-color:#f9cc3c;
+	padding:15px 25px;
+	font-family:fredoka one;
+	color:#de0380;
+	width:13%;
+	margin-left:80px;
+	margin-top:30px;
+	border-radius:10px;
+}
+.photographs{
+	display:flex;
+	text-align:center;
+	margin-top:30px;
+}
+.anhconphotographs img{
+	width:70%;
+	border-radius:20px;
+}
+.illustrations{
+	background-image:url("anh tim xinh 2.png");
+	background-size:cover;
+	background-repeat:no-repeat;
+	height:100vh;
+	margin-top:-46px;
+	position:relative;
+	
+}
+.tieudenhodohoa{
+	background-color:#f9cc3c;
+	padding:15px 25px;
+	font-family:fredoka one;
+	color:#de0380;
+	width:13%;
+	margin-left:80px;
+	border-radius:10px;
+	position:absolute;
+	margin-top:200px;
+}
+.illustrationstieptheo{
+	background-image:url("anh tim xinh moi.png");
+	background-size:cover;
+	background-repeat:no-repeat;
+	height:100vh;
+}
+.anhluoi{
+	display:grid;
+	grid-template-columns:200px 200px 200px 200px 200px;
+	grid-template-rows:400px 400px;
+	color:white;
+	grid-gap:20px;
+	margin-top:300px;
+	position:absolute;
+	margin-left:200px;
+	grid-row-gap: 60px;
+}
+.bocanhluoi{
+	text-align:center;
+	width:100%;
+}
+.so1{
+	grid-column:1/4;
+}
+.so1 img{
+	width:100%;
+	border-radius:10px;
+}
+.so2{
+	grid-column:4/6
+}
+
+.so2 img{
+	width:101%;
+	border-radius:10px;
+}
+.so3{
+	grid-column:1/3;
+}
+.so3 img{
+	width:101%;
+	border-radius:10px;
+}
+.so4{
+	grid-column:3/6;
+}
+.so4 img{
+	width:100%;
+	border-radius:10px;
+}
+.informations{
+	background-image:url("smiley.png");
+	background-size:cover;
+	background-repeat:no-repeat;
+	height:100vh;
+	display:flex;
+	align-items:center;
+	justify-content:center;
+}
+.noidungthongtin{
+	background-color:white;
+	border-radius:20px;
+	width:80%;
+	height:80%;
+	display:flex;
+}
+.thongtincanhan{
+	width:50%
+}
+.thongtincanhan h1{
+	font-family:fredoka one;
+	font-size:40px;
+	color:#de0380;
+	margin-top:20px;
+	text-align:center;
+	width:100%;
+}
+.contactme{
+	text-align:center;
+	width:50%
+}
+.contactme h1{
+	font-family:fredoka one;
+	font-size:40px;
+	color:#de0380;
+	margin-top:20px;
+}
+.boxnhap input{
+	margin-top:20px;
+	background-color:#3e338f;
+	padding:15px 30px;
+	border-radius:20px;
+	font-family:ubuntu;
+	font-size:20px;
+	color:white;
+}
+.boxnhap placeholder{
+	color:white;
+	font-family:ubuntu;
+	margin-right:auto;
+}
+.contactme .nutbamsend{
+	background-color:#de0380;
+	padding:20px 70px;
+	border-radius:20px;
+	text-decoration:none;
+	font-family:fredoka one;
+	color:white;
+	border:none;
+	font-size:20px;
+}
+.contactme .nutbamsend:hover{
+	transform:scale(1.5);
+	color:#f9cc3c;
+}
+.boxnhap{
+	width:100%;
+	padding-bottom:50px;
+	padding-top:30px;
+}
+.fontawesome {
+	width:100%;
+	height:100%;
+	margin-top:80px;
+	margin-left:50px;
+}
+.tungiconnho{
+	display:flex;
+	width:100%;
+}
+.doanvan{
+	float:right;
+	margin-left:30px;
+	font-family:fredoka one;
+	font-size:20px;
+	margin-top:30px;
+}
+.nhomicon{
+	height:50px;
+	width:50px;
+	background-color:#3e338f;
+	color:white;
+	border-radius:50%;
+	text-align:center;
+	margin-top:20px;
+}
+.nhomicon i{
+	font-size:25px;
+	margin-top:10px;
+	
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.footer{
+	background-color:#3e338f;
+	height:200px;
+	text-align:center;
+	color:white;
+}
+.footer h1{
+	padding:20px;
+	font-size:50px;
+	font-family:fredoka one;
+	padding-top:50px;
+	letter-spacing: 2px;
+}
+.footer h2{
+	font-family:ubuntu;
+}
